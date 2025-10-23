@@ -7,7 +7,7 @@ authors = [
 keywords = ["pytorch", "transformers", "finetuning", "llm"]
 license = { file = "LICENSE" }
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     # Core
     "pydantic>=2.10.4",

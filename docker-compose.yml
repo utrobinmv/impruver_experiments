@@ -7,7 +7,6 @@ services:
     volumes:
       - .:/app
       - ~/.cache/huggingface:/root/.cache/huggingface
-    network_mode: bridge
     deploy:
       resources:
         reservations:
