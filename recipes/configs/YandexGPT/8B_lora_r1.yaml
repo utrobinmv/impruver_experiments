@@ -28,14 +28,14 @@ datasets:
     converter: impruver.reasoning_to_messages
     add_global_bos: false
     add_global_eos: false
-  - name: Vikhrmodels/russian_math
-    converter: impruver.reasoning_to_messages
-    add_global_bos: false
-    add_global_eos: false
-    mapping:
-      instruction: task
-      reasoning: solution
-      output: short answer
+#  - name: Vikhrmodels/russian_math
+#    converter: impruver.reasoning_to_messages
+#    add_global_bos: false
+#    add_global_eos: false
+#    mapping:
+#      instruction: task
+#      reasoning: solution
+#      output: short answer
   - name: kristaller486/Nebo-T1-Russian
     converter: impruver.reasoning_to_messages
     add_global_bos: false
