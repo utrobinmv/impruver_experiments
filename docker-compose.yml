@@ -5,7 +5,11 @@ services:
     build:
       context: .
     volumes:
-      - .:/app
+      - .:/home/app/code
+      - ~/.cache/huggingface:/home/app/.cache/huggingface
+      - /home/m.utrobin/tmp/impruver:/home/app/tmp
+      - /home/m.utrobin/models:/home/app/models
+      #- .:/app
       - ~/.cache/huggingface:/root/.cache/huggingface
     network_mode: bridge
     deploy:
